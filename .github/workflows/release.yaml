@@ -16,6 +16,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           goos: linux
           goarch: amd64
-          goversion: 1.20
-          binary_name: kc
+          goversion: 1.20.6
+          binary_name: k8c
           extra_files: LICENSE README.md
